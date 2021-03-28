@@ -1,4 +1,4 @@
-*Shawn's Portfolio Challeng
+Shawn's Portfolio Challenge
 
 Created the website with no prior code
 
