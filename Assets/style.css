@@ -291,6 +291,10 @@ h2 {
         width: 100%;
     }
 
+    h2 {
+        text-align: center;
+    }
+
     .champion {
         background-position: center ;
     }
