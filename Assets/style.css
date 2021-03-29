@@ -84,7 +84,7 @@ footer h2 {
 h2 {
     margin: auto auto;
     font-size: 60px;
-    text-align: center;
+    /* text-align: center; */
     width: 100%;
 }
 
@@ -114,7 +114,7 @@ h2 {
     color: var(--color-4);
     display: inline-flex;
     flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 15px;
 }
 
@@ -146,23 +146,21 @@ h2 {
     color: var(--color-4);
     display: inline-flex;
     flex-wrap: nowrap;
-    justify-content: space-around;
-    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+    padding-inline-end: 15px;
+}
+
+.my-work img {
+    max-width: 90%;
+    height: auto;
     padding: 15px;
 }
 
-.flex-row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    padding: 30px;
+.my-work h2 {
+    padding: 15px;
 }
 
-.flex-row img {
-    width 90px;
-    height: 90px;
-}
 .container {
     position: relative;
 }
@@ -177,14 +175,12 @@ h2 {
     padding-right: 20px;
 }
 
-.text-block h5:hover {
-    color: var(--primary-color);
+.text-block-size {
+    font-size: 20px;
 }
 
-.my-work img {
-    max-width: 90%;
-    padding-left: 35px;
-    position: relative;
+.text-block h5:hover {
+    color: var(--primary-color);
 }
 
 .my-work a {
@@ -197,7 +193,7 @@ h2 {
 }
 
 .my-work h4 {
-    font-size: 54px;
+    font-size: 24px;
     color: var(--color4);
 }
 
